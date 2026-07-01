@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>Monu (@igris-arise)</title>
+     <link rel="stylesheet" href="src/style.css">
+     <link rel="icon" href="https://cdn.discordapp.com/attachments/904391571934416946/1207274171374248026/1999966800.jpg?ex=65df0cb0&is=65cc97b0&hm=b31dd4a437684916c50cf5f6b97dbb91d2ff9b5bfa994e6c6b6a5de229639372&.jpg" type="image/x-icon">
+     <link rel='stylesheet' href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Poppins:wght@100;200;300;400;500;600;700&display=swap">
+     <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="description" content="Monu's Portfolio | One of the first web development projects by Monu.">
+     <meta itemprop="name" content="Monu's Portfolio">
+     <meta itemprop="description" content="Monu's Portfolio | One of the first web development projects by Monu.">
+     <meta itemprop="image" content="https://i.pinimg.com/564x/3f/50/e6/3f50e604b75022b5f2539f241755b913.jpg">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <meta content="Monu's Portfolio" property="og:site_name">
+     <meta property="og:type" content="website">
+     <meta content="https://monu70152.github.io/" property="og:url">
+     <meta content="Monu (@monu70152)" property="og:title">
+     <meta content="https://i.pinimg.com/564x/3f/50/e6/3f50e604b75022b5f2539f241755b913.jpg">
+     <meta content="Monu's Portfolio | One of the first web development projects by Monu." property="og:description">
+</head>
+
+<body id="body" class="dark" oncontextmenu="return false">
+     <div class="loader" id="loader">
+          <h1 data-value="monu70152" id="loader-text">Click me</h1>
+     </div>
+     <div id="particles-js"></div>
+     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+     <div class="wrapper">
+          <div class="toggle">
+               <input class="toggle-input" type="checkbox" />
+               <div class="toggle-bg"></div>
+               <div class="toggle-switch">
+                    <div class="toggle-switch-figure"></div>
+                    <div class="toggle-switch-figureAlt"></div>
+               </div>
+          </div>
+     </div>
+
+     <div class="modal">
+          <img src="https://cdn.discordapp.com/attachments/904391571934416946/1207274171374248026/1999966800.jpg?ex=65df0cb0&is=65cc97b0&hm=b31dd4a437684916c50cf5f6b97dbb91d2ff9b5bfa994e6c6b6a5de229639372&.jpg" alt="monu70152">
+          <div class="close"></div>
+     </div>
+
+     <div id="container" class="container">
+          <input type="checkbox" name="" id="check">
+          <div class="card">
+               <div class="sidebar" id="sidebar">
+                    <a class="active" href="https://github.com/Igris-Arise" target="_blank">Github</a>
+                    <a class="active" href="https://Monu70152.t.me" target="_blank" >Telegram</a>
+                    <a class="active" href="https://instagram.com/monuohlyan70" target="_blank">Insta</a>
+               </div>
+               <div class="header" onclick="toggle()">
+                    <label for="check" class="checkbtn" id="chkbtn">
+                         <div class="hamburger-menu">
+                              <div class="center"></div>
+                         </div>
+                    </label>
+                    <a href="mailto:sudharjao@1245@gmail.com" class="mail">
+                         <i class="far fa-envelope"></i>
+                    </a>
+                    <div class="main">
+                         <div class="image">
+                              <div class="hover">
+                                   <i class="fas fa-camera fa-2x"></i>
+                              </div>
+                         </div>
+                         <h3 class="name">Monu</h3>
+                         <h3 class="sub-name">@monu70152</h3>
+                    </div>
+               </div>
+
+               <div class="content">
+                    <div class="left">
+                         <div class="about-container">
+                              <h3 class="title">About</h3>
+                              <p class="text">just</p>
+                              <p class="text">30 Y.O</p>
+                              <p class="text"></p>
+                         </div>
+                         <div class="icons-container">
+                              <a href="https://github.com/Igris-Arise" class="icon">
+                                   <i class="fab fa-github"></i>
+                              </a>
+                              <a href="https://telegram.dog/monu70152" class="icon">
+                                   <i class="fab fa-telegram"></i>
+                              </a>
+                              <a href="https://instagram.com/monuohlyan70" class="icon">
+                                   <i class="fab fa-instagram"></i>
+                              </a>
+                         </div>
+                         <div class="buttons-wrap">
+                              <div class="follow-wrap">
+                                   <a href="https://github.com/monu70152" class="follow">Follow</a>
+                              </div>
+                              <div class="share-wrap">
+                                   <a href="https://telegram.dog/Monu70152" class="share">Contact</a>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </div>
+     </div>
+     
+     <script>
+          document.onkeydown = function (e) {
+               if (event.keyCode == 123) {
+                    return false;
+               }
+               if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+                    return false;
+               }
+               if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+                    return false;
+               }
+               if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+                    return false;
+               }
+               if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+                    return false;
+               }
+          }
+     </script>
+     <script src="src/app.js"></script>
+</body>
+</html>
